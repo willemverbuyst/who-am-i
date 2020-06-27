@@ -109,3 +109,72 @@ body {
   transform: rotate(-90deg);
   transform-origin: top left;
 }
+
+/***********************************************/
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* 'background-attachment: fixed' is not working on mobile devices --> change set-up */
+@media only screen and (max-width: 800px) {
+  .parallax {
+    height: 80vh;
+    background-attachment: scroll;
+    align-items: flex-start;
+  }
+
+  .parallax--2 {
+    background-image: url('../img/Illiniza_Norte.jpeg');
+  }
+  .parallax--3 {
+    background-image: url('../img/El_Chachani_summit.jpeg');
+  }
+
+  .parallax__text {
+    max-width: 90%;
+  }
+
+  .parallax__text--1 {
+    margin-top: 20vh;
+  }
+  .parallax__text--2 {
+    margin-top: 2vh;
+  }
+  .parallax__text--3 {
+    margin-top: 4vh;
+  }
+
+  .banner {
+    min-height: 30vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .banner__content {
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    padding: 2rem;
+    margin-right: 0;
+  }
+
+  .banner__personal-details {
+    margin-left: 0;
+    margin-top: 2rem;
+    align-self: center;
+    font-size: 1.7rem;
+    transform: rotate(0deg);
+    transform-origin: top left;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .parallax__text {
+    font-size: 4.4rem;
+  }
+}
