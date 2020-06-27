@@ -58,6 +58,16 @@ body {
     url('../img/El_Condoriri_trek.jpeg');
 }
 
+.parallax--2 {
+  background-image: linear-gradient(
+      135deg,
+      rgba(117, 19, 93, 0.7) 31vw,
+      transparent 31vw,
+      transparent
+    ),
+    url('../img/Illiniza_Norte.jpeg');
+}
+
 .parallax__text {
   font-size: 6.4rem;
   color: rgba(255, 255, 255, 0.7);
