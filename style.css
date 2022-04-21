@@ -55,7 +55,7 @@ body {
       transparent 31vw,
       transparent
     ),
-    url('../img/El_Condoriri_trek.jpeg');
+    url('./img/El_Condoriri_trek.jpeg');
 }
 
 .parallax--2 {
@@ -65,7 +65,7 @@ body {
       transparent 31vw,
       transparent
     ),
-    url('../img/Illiniza_Norte.jpeg');
+    url('./img/Illiniza_Norte.jpeg');
 }
 
 .parallax--3 {
@@ -75,7 +75,7 @@ body {
       transparent 31vw,
       transparent
     ),
-    url('../img/El_Chachani_summit.jpeg');
+    url('./img/El_Chachani_summit.jpeg');
 }
 
 .parallax__text {
@@ -126,10 +126,10 @@ body {
   }
 
   .parallax--2 {
-    background-image: url('../img/Illiniza_Norte.jpeg');
+    background-image: url('./img/Illiniza_Norte.jpeg');
   }
   .parallax--3 {
-    background-image: url('../img/El_Chachani_summit.jpeg');
+    background-image: url('./img/El_Chachani_summit.jpeg');
   }
 
   .parallax__text {
