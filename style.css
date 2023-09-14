@@ -108,3 +108,40 @@ aside {
     ),
     url("./img/El_Chachani_summit.jpeg");
 }
+
+/***********************************************/
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  section:nth-child(even) {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  section p {
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  aside {
+    align-self: center;
+    font-size: 1.7rem;
+    transform: rotate(0deg);
+    transform-origin: top left;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h2 {
+    font-size: 4.4rem;
+  }
+}
