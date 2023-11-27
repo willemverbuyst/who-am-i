@@ -15,5 +15,10 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.9.3"
+  },
+  "@parcel/transformer-css": {
+    "drafts": {
+      "nesting": true
+    }
   }
 }
