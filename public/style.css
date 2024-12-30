@@ -57,7 +57,7 @@ header {
     height: 10vw;
     border: 2px solid var(--color-white);
     border-radius: 50%;
-    /* postion of letter */
+    /* position of letter */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,13 +129,13 @@ section {
 }
 
 #parallax-1 {
-  background-image: var(--linear-gradient), url("./img/El_Condoriri_trek.jpeg");
+  background-image: var(--linear-gradient), url("./El_Condoriri_trek.jpeg");
 }
 
 #parallax-2 {
-  background-image: var(--linear-gradient), url("./img/Illiniza_Norte.jpeg");
+  background-image: var(--linear-gradient), url("./Illiniza_Norte.jpeg");
 }
 
 #parallax-3 {
-  background-image: var(--linear-gradient), url("./img/El_Chachani_summit.jpeg");
+  background-image: var(--linear-gradient), url("./El_Chachani_summit.jpeg");
 }
