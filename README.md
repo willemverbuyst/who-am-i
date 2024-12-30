@@ -1,6 +1,6 @@
 # Who am I?
 
-[![Publish to GitHub Pages](https://github.com/willemverbuyst/who-am-i/actions/workflows/publish-to-gh-pages.yml/badge.svg)]
+[Publish to GitHub Pages](https://github.com/willemverbuyst/who-am-i/actions/workflows/publish-to-gh-pages.yml/badge.svg)
 
 ## What is this?
 
